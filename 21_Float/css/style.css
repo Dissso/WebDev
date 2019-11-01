@@ -1,0 +1,11 @@
+img {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+body {
+	background: red;
+}
+
