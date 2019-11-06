@@ -1,10 +1,25 @@
 @import url(reset.css);
 
-.flex-container {
-	display: flex;
+header {
+	position: fixed;
+    width: 100%;
+    height: 40px;
+	display: flex; 
+	justify-content: space-between;
+	color: #F8BFC7;
+    background-color: white;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.list li {
+  padding-right: 10px;
 }
 
 img {
+	width: 100%;
 height: 950px;
 left: 0px;
 top: 140px;
@@ -12,12 +27,6 @@ top: 140px;
 }
 
 p {
-	position: absolute;
-width: 120px;
-height: 40px;
-left: 50px;
-top: 50px;
-
 font-family: Arial;
 font-size: 50px;
 line-height: 57px;
@@ -29,11 +38,6 @@ color: #E50043;
 }
 
 a {
-	position: absolute;
-width: 130px;
-height: 40px;
-left: 950px;
-top: 50px;
 
 font-family: Arial;
 font-size: 50px;
@@ -43,10 +47,6 @@ align-items: center;
 
 color: #E50043;
 
-}
-.menu {
-	display: inline-block;
-	flex-direction: row;
 }
 
 header {
@@ -58,7 +58,7 @@ header {
 
 .header {
 	position: absolute;
-width: 1440px;
+width: 100%;
 height: 950px;
 top: 140px;
 
@@ -76,7 +76,7 @@ color: #E50043;
 
 h1 {
 	position: absolute;
-width: 992px;
+width: 100%;
 height: 232px;
 left: 225px;
 top: 1264px;
@@ -94,7 +94,7 @@ color: #000000;
 
 .Rectangle {
 	position: absolute;
-width: 1040px;
+width: 100%;
 height: 280px;
 left: 201px;
 top: 1240px;
