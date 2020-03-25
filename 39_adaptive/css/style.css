@@ -19,37 +19,40 @@
 }
 
 .column {
-	width: calc((100% - 40px)/3);
 	border: 3px solid #000;
 	
 }
 .image.one {
-	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
 }
 
 .image.two {
-	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
 }
 
 .image.three {
-	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
 }
 
 .image.four {
-	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
 }
 
-@media screen and (min-width: 375px) {
-  .column {
-    flex-direction: row;
-    flex-wrap: wrap;
+@media screen and (max-width: 375px) {
+  .columns {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 536px) {
+  .columns {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
   }
 }
