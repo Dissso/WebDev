@@ -1,0 +1,114 @@
+@import url(reset.css);
+body {
+	background: #F8BFC7;
+}
+
+img {
+	width: 100%;
+}
+
+li {
+	display: inline;
+	font-family: Arial;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	border-width: 10px 0;
+  border-style: solid none;
+  border-color: #FDBE33;
+  border-radius: 6px;
+  background: linear-gradient #E38916;
+  transition: 0.2s;
+}
+
+a:hover {
+	background-color: #fff;
+
+}
+
+.header {
+	float: right;
+	display: inline;
+	font-family: Arial;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+nav {
+	margin-top: 40px;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+	height: 50px;
+	display: flex;
+}
+
+.copyright {
+	font-family: Arial;
+	color: white;
+	margin-left: 20px;
+}
+
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: lightgrey;
+  border: 1px solid black;
+}
+
+input {
+  height: 30px;
+}
+
+label, span {
+  line-height: 2rem
+  font-size: 20px;
+}
+
+label {
+  display: block;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+textarea {
+  height: 300px;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}

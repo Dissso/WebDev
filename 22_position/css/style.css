@@ -12,7 +12,7 @@ section {
 .static .inner {
 	background-color: red;
 	position: static;
-	margin: 20px;
+	margin: 50px;
 }
 
 .relative .inner {
@@ -25,7 +25,7 @@ section {
 .absolute .inner {
 	background-color: violet;
 	position: absolute;
-	top: 20px;
+	top: 50px;
 }
 
 .fixed .inner {
